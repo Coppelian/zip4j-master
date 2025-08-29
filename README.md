@@ -1,4 +1,4 @@
-****This is the case study: bug injection for Compress-1
+##This is the case study: bug injection for Compress-1
 
 [![javadoc](https://javadoc.io/badge2/net.lingala.zip4j/zip4j/javadoc.svg)](https://javadoc.io/doc/net.lingala.zip4j/zip4j)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.lingala.zip4j/zip4j/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.lingala.zip4j/zip4j)
