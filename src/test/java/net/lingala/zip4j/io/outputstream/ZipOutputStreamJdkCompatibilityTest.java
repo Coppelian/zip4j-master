@@ -62,7 +62,7 @@ public class ZipOutputStreamJdkCompatibilityTest extends AbstractIT {
             // If we reach here with a corrupted EOCD/CD, that's unexpected.
             // Fail explicitly so the test trips when the offset is wrong.
             // (With the -1 offset bug, we expect a ZipException earlier.)
-            fail("Expected java.util.zip.ZipException due to invalid central directory finalization");
+            fail("Expected java.util.zip.ZipException");
         } catch (ZipException expected) {
             // pass: corrupted finalization surfaced to JDK ZipFile
         } finally {
